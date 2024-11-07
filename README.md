@@ -53,6 +53,7 @@ Porfolio em formato de Landing Page para divulgar meus projetos já realizados. 
   node -v
   npm -v
 ```
+<br>
 
 2. **Vite**
 - **Vite**: Este é o bundler que usamos para criar e rodar o projeto React. Vite é rápido e otimizado para desenvolvimento.
@@ -62,6 +63,7 @@ Para instalar e inicializar um projeto com Vite, use o comando:
 ```bash
   npm create vite@latest
 ```
+<br>
 
 3. **Dependências do Projeto**
 Após criar o projeto com Vite, navegue até o diretório do projeto e instale as dependências que você precisará:
@@ -78,6 +80,7 @@ Após criar o projeto com Vite, navegue até o diretório do projeto e instale a
 ```bash
   npm install lucide-react
 ```
+<br>
 
 4. **Executando o Projeto**
 Com tudo configurado, você pode iniciar o servidor de desenvolvimento com:
@@ -85,6 +88,7 @@ Com tudo configurado, você pode iniciar o servidor de desenvolvimento com:
 ```bash
   npm run dev
 ```
+<br>
 
 ## Tecnologias usadas: 📦
 - **React** - Biblioteca JavaScript para construção de interfaces de usuário.
@@ -95,7 +99,7 @@ Com tudo configurado, você pode iniciar o servidor de desenvolvimento com:
 - **HTML** - Estrutura básica do aplicativo.
 - **CSS** - Para estilização de elementos base.
 
-
+<br>
 
 ## Autores 👷
 - **Tatyane Gonçalves** - *Desenvolvedora* - [@tatyanepgoncalves](https://github.com/tatyanepgoncalves)
