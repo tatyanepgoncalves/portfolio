@@ -4,6 +4,11 @@ Porfolio em formato de Landing Page para divulgar meus projetos já realizados. 
 
 ## Introdução 🔥
 
+### Links 🔗
+- [Protótipo](https://www.figma.com/design/NkndT2SbyHJZWLEsaM8Xn3/DIO-Lab-Portf%C3%B3lio?node-id=0-1&node-type=canvas&t=RQ7xak8hPDOLjNNc-0)
+- [Deploy]()
+- [Código](https://github.com/tatyanepgoncalves/portfolio)
+
 ### Estrutura de Arquivos 📂
 
 ```ruby
@@ -44,12 +49,10 @@ Porfolio em formato de Landing Page para divulgar meus projetos já realizados. 
 - **Node.JS**: Certifique-se de ter o Node.JS instalado. Você pode baixar e instalar no [site oficial do Node.JS](https://nodejs.org/pt).
 - **NPM (Node Package Manager)**: Geralmente é instalado junto com o Node.js. Confirme que ambos estão instalados executando:
 
-``bash
-
+```bash
   node -v
   npm -v
-
-``
+```
 
 2. **Vite**
 - **Vite**: Este é o bundler que usamos para criar e rodar o projeto React. Vite é rápido e otimizado para desenvolvimento.
@@ -57,9 +60,7 @@ Porfolio em formato de Landing Page para divulgar meus projetos já realizados. 
 Para instalar e inicializar um projeto com Vite, use o comando:
 
 ```bash
-
   npm create vite@latest
-
 ```
 
 3. **Dependências do Projeto**
@@ -70,28 +71,19 @@ Após criar o projeto com Vite, navegue até o diretório do projeto e instale a
 - *Sass*: Para adicionar suporte ao Sass, instale o pacote:
 
 ```bash
-  
   npm install sass
-
-
 ```
 - *Lucide Icons*: Para ícones responsivos e leves, instale o pacote `lucide-react`:
 
 ```bash
-
   npm install lucide-react
-
-
 ```
 
 4. **Executando o Projeto**
 Com tudo configurado, você pode iniciar o servidor de desenvolvimento com:
 
 ```bash
-
   npm run dev
-
-
 ```
 
 ## Tecnologias usadas: 📦
@@ -104,10 +96,6 @@ Com tudo configurado, você pode iniciar o servidor de desenvolvimento com:
 - **CSS** - Para estilização de elementos base.
 
 
-## Links 🔗
-- [Protótipo](https://www.figma.com/design/NkndT2SbyHJZWLEsaM8Xn3/DIO-Lab-Portf%C3%B3lio?node-id=0-1&node-type=canvas&t=RQ7xak8hPDOLjNNc-0)
-- [Deploy]()
-- [Código]()
 
 ## Autores 👷
 - **Tatyane Gonçalves** - *Desenvolvedora* - [@tatyanepgoncalves](https://github.com/tatyanepgoncalves)
