@@ -1,0 +1,32 @@
+header {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.header-nav {
+  display: none;
+}
+
+.logo {
+  h3 {
+    letter-spacing: .19rem;
+  }
+}
+
+@media (width >= 999px) {
+  .header_menu-mobile {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+    gap: 5rem;
+
+    a {
+      text-transform: uppercase;
+      letter-spacing: .19rem;
+    }
+  }
+}
