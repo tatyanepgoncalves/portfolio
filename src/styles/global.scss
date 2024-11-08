@@ -21,3 +21,27 @@ h1, h2, h3 {
   font-family: $spartan;
   font-weight: 400;
 }
+
+img {
+  max-width: 100%;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#app {
+  width: 100%;
+  max-width: 37.5rem;
+  margin: 4rem auto;
+  padding: 1.5rem;
+  border: 1px solid;
+}
+
+@media (width >= 768px) {
+  #app {
+    max-width: 90vw;
+  }
+}
