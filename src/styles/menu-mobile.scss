@@ -13,8 +13,9 @@
   flex-direction: column;
   justify-content: space-evenly;
   padding: 4rem 5rem;
-
+  
   a {
+    transition: color .5s, opacity .5s;
     font-size: 2rem;
   }
 }
