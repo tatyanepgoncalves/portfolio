@@ -1,18 +1,19 @@
 @import "./_variables";
 
 html.light {
-  * {
-    color: #28292e;
-  }
 
   body {
     background-color: $primary-bg-light;
   }
 
-  #home {
-    p {
-      color: $text-light;
-    }
+  *, p, span {
+    color: $text-light;
+  }
+}
+
+html.light {
+  h1, h2, h3 {
+    color: $title-light;
   }
 }
 
@@ -74,5 +75,45 @@ html.light {
       }
     }
     
+  }
+}
+
+html.light {
+  .curses-item {
+    background-color: $secondary-bg-light;
+  }
+
+  #skills {
+    background-color: $secondary-bg-light;
+  }
+
+  .skills-items {
+    background-color: $primary-bg-light;
+  }
+}
+
+html.light {
+  .image-box {
+    background-color: $secondary-bg-light;
+
+    p {
+      color: $title-light;
+    }
+  }
+
+  .box-link:nth-child(1) {
+    border: 2px solid $primary-color-dark;
+  }
+}
+
+html.light {
+  .techs-used {
+    li {
+      border: 1px solid $secondary-bg-light;
+    }
+  }
+  
+  .box-email {
+    border: 1px solid $primary-color-dark;
   }
 }
