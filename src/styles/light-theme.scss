@@ -54,3 +54,25 @@ html.light {
     }
   }
 }
+
+html.light {
+  .menu-items {
+    background-color: $secondary-bg-light;
+    
+    &:hover {
+      a {
+        opacity: 0.25;
+      }
+    }
+
+    a {
+      color: $text-light;
+      
+      &:hover {
+        color: $title-light;
+        opacity: 1;
+      }
+    }
+    
+  }
+}
