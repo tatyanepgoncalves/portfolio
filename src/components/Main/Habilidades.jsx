@@ -5,13 +5,14 @@ import {
   IoLogoReact,
   IoLogoSass,
 } from "react-icons/io5";
+import "../../styles/_habilidades.scss";
 
 export default function Habilidades() {
   return (
     <section id="skills">
       <h2>Conhecimento nas principais tecnologias do mercado</h2>
 
-      <article>
+      <article className="skills-box">
         <div className="skills-items">
           <IoLogoHtml5 size={24} />
         </div>
