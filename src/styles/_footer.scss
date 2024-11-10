@@ -13,3 +13,12 @@ footer {
     }
   }
 }
+
+@media (width >= 999px) {
+  footer {
+    .text {
+      font-size: 1.6rem;
+      line-height: 1.9rem;
+    }
+  }
+}
