@@ -9,6 +9,12 @@ header {
   display: none;
 }
 
+.header-btns {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
 .logo {
   h3 {
     letter-spacing: .19rem;
