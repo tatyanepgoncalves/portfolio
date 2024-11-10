@@ -31,3 +31,21 @@
     border-radius: 5rem;
   }
 }
+
+@media (width >= 999px) {
+  #contact {
+    margin: 10rem 0;
+    gap: 4rem;
+
+    h2 {
+      font-size: 8rem;
+    }
+
+    p {
+      font-size: 2.4rem;
+      line-height: 2.9rem;
+      flex-wrap: wrap;
+      width: 92rem;
+    }
+  }
+}
