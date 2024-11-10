@@ -3,6 +3,12 @@
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    line-height: 2.9rem;
+  }
 }
 
 .project-list {
@@ -75,5 +81,64 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (width >= 999px) {
+  #projetos {
+    h2 {
+      text-align: center;
+      font-size: 8rem;
+      line-height: 7.3rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .project-list {
+    gap: 10rem;
+  }
+
+  .project-item {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .image-box {
+    width: 30%;
+  }
+
+  .text-project {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    h3 {
+      font-size: 5.2rem;
+      letter-spacing: 4%;
+      
+    }
+
+    p , li {
+      font-size: 2rem;
+    }
+  }
+
+  .techs-used {
+    justify-content: left;
+    gap: 1.6rem;
+  }
+
+  .links-project {
+    margin: 0;
+    justify-content: left;
+
+    .box-link {
+      margin: 0;
+    }
+  }
+
+  .project-item:nth-child(2) {
+    flex-direction: row-reverse;
   }
 }
