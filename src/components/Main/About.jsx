@@ -1,6 +1,7 @@
 import imageAvatar from "../../images/Tatyane.jpg";
 import { Languages } from "lucide-react";
 import Education from "./Education";
+import "../../styles/_about.scss";
 
 export default function About() {
   return (
@@ -12,11 +13,12 @@ export default function About() {
 
           <div className="language-box">
             <Languages size={24} />
-            <div className="linguage-item">
+            <div className="language-item">
               <h3>Espanhol</h3>
               <p>Intermediário</p>
             </div>
-            <div className="linguage-item">
+            
+            <div className="language-item">
               <h3>Inglês </h3>
               <p>Básico</p>
             </div>
