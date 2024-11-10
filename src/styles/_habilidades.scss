@@ -28,3 +28,18 @@
     justify-content: center;
   }
 }
+
+@media (width >= 999px) {
+  #skills {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 9rem;
+    padding: 5rem 2rem;
+
+    h2 {
+      font-size: 6.4rem;
+      line-height: 5.8rem;
+    }
+  }
+}
