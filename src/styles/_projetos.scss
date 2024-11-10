@@ -21,6 +21,12 @@
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
+
+  .text-project {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+  }
   
   .image-box {
     width: 100%;
@@ -109,8 +115,6 @@
 
   .text-project {
     width: 80%;
-    display: flex;
-    flex-direction: column;
     gap: 2.5rem;
 
     h3 {
