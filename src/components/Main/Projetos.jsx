@@ -1,4 +1,5 @@
 import ProjectList from "./ProjetoList"
+import "../../styles/_projetos.scss"
 
 export default function Projetos() {
   return (
