@@ -9,17 +9,22 @@
     font-weight: 300;
   }
 }
-
-.title {
-  h1, span {
-    font-size: 4rem;
-    font-weight: 400;
-  }
-  
-  span {
-    font-weight: 300;
-  }
+#home {
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    h1, span {
+      font-size: 4rem;
+      font-weight: 400;
+    }
+    
+    span {
+      font-weight: 300;
+    }
+  }  
 }
+
 
 .social-media {
   display: flex;
@@ -39,4 +44,28 @@
   text-transform: capitalize;
   line-height: 2.42rem;
   letter-spacing: 0.05rem;
+}
+
+@media (width >= 999px) {
+  #home {
+    margin: 13.3rem 0 8rem;
+    gap: 3.2rem;
+
+    .title {
+      h1, span {
+        font-size: 10rem;
+        line-height: 10rem;
+      }
+    }
+
+    p {
+      font-size: 2.4rem;
+      line-height: 2.9rem;
+    }
+  }
+}
+
+.btn-home {
+  padding: .5rem 3rem;
+  width: max-content;
 }
