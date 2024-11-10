@@ -1,0 +1,33 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+  }
+
+  p {
+    text-align: center;
+    font-style: 1.6rem;
+    line-height: 1.9rem;
+  }
+}
+
+#contact {
+  .social-media {
+    gap: 1.6rem;
+  }
+
+  .box-email {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.6rem 2rem;
+    border-radius: 5rem;
+  }
+}
