@@ -38,28 +38,32 @@ export default function ProjetoList() {
           <div className="image-box">
             <p>{projeto.image}</p>
           </div>
-          <h3>{projeto.title}</h3>
-          <p>{projeto.description}</p>
-          <ul className="techs-used">
-            {projeto.techs.map((tech, index) => (
-              <li key={index}><p>{tech}</p></li>
-            ))}
-          </ul>
+          <div className="text-project">
+            <h3>{projeto.title}</h3>
+            <p>{projeto.description}</p>
+            <ul className="techs-used">
+              {projeto.techs.map((tech, index) => (
+                <li key={index}><p>{tech}</p></li>
+              ))}
+            </ul>
+            
+            <div className="links-project">
+              <div className="box-link">
+                <a href={projeto.deploy} target="_blank">
+                  Prévia do projeto
+                </a>
+                <ArrowUpRight size={24} />
+              </div>
+              <div className="box-link">
+                <a href={projeto.code} target="_blank">
+                  
+                  Repositório
+                </a>
+              </div>
+            </div>
 
-          <div className="links-project">
-            <div className="box-link">
-              <a href={projeto.deploy} target="_blank">
-                Prévia do projeto
-              </a>
-              <ArrowUpRight size={24} />
-            </div>
-            <div className="box-link">
-              <a href={projeto.code} target="_blank">
-                
-                Repositório
-              </a>
-            </div>
           </div>
+
         </div>
       ))}
     </article>
