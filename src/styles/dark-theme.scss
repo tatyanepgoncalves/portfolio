@@ -105,6 +105,14 @@ html.dark {
 }
 
 html.dark {
+  .curses-item {
+    background-color: $secondary-bg-dark;
+  }
+  
+  .curses-content {
+    border-top: none;
+  }
+
   .techs-used {
     li {
       border: 1px solid $secondary-bg-dark;
