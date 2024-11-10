@@ -74,3 +74,44 @@ html.dark {
     
   }
 }
+
+
+html.light {
+  .curses-item {
+    background-color: $secondary-bg-light;
+  }
+
+  #skills {
+    background-color: $secondary-bg-light;
+  }
+
+  .skills-items {
+    background-color: $primary-bg-light;
+  }
+}
+
+html.dark {
+  .image-box {
+    background-color: $secondary-bg-dark;
+
+    p {
+      color: $title-dark;
+    }
+  }
+
+  .box-link:nth-child(1) {
+    border: 2px solid $primary-color-dark;
+  }
+}
+
+html.dark {
+  .techs-used {
+    li {
+      border: 1px solid $secondary-bg-dark;
+    }
+  }
+  
+  .box-email {
+    border: 1px solid $primary-color-light;
+  }
+}
