@@ -20,11 +20,13 @@ html.dark {
 
 html.dark {
   .menu-items {
-    background-color: #28292e;
+    background-color: $secondary-bg-dark;
 
     a {
+      color: $text-dark;
+      
       &:hover {
-        color: #fafafa;
+        color: $title-dark;
       }
     }
   }
