@@ -13,3 +13,41 @@ html.dark {
     color: $text-dark;
   }
 }
+
+html.dark {
+  .social-media {
+    a {
+      color: $border-dark;
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      border: 1px solid $border-dark;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: none;
+      transition: background-color 0.5s, border .5s, box-shadow .5s, transform .5s;
+
+      &:hover {
+        background-color: $border-dark;
+        border: none;
+        box-shadow: 0 0 2rem $border-dark;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+html.dark {
+  .btn-home {
+    background-color: transparent;
+    border: 2px solid $border-dark;
+    transition: all .5s;
+    
+    &:hover {
+      background-color: $secondary-bg-dark;
+      border: none;
+      box-shadow: 0 0 2.5rem $border-dark;
+    }
+  }
+}
