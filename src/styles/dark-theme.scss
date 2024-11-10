@@ -51,3 +51,26 @@ html.dark {
     }
   }
 }
+
+
+html.dark {
+  .menu-items {
+    background-color: $secondary-bg-dark;
+    
+    &:hover {
+      a {
+        opacity: 0.25;
+      }
+    }
+
+    a {
+      color: $text-dark;
+      
+      &:hover {
+        color: $title-dark;
+        opacity: 1;
+      }
+    }
+    
+  }
+}
