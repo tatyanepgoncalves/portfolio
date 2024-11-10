@@ -1,6 +1,6 @@
 import SocialMedia from "../SocialMedia/SocialMedia";
 import BtnCallToAction from "../Buttons/BtnCallToAction";
-import "../../home.scss";
+import "../../styles/home.scss";
 
 export default function Home() {
   return (
