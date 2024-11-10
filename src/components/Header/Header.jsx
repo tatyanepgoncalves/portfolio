@@ -4,7 +4,11 @@ import "../../styles/_header.scss";
 
 export default function Header() {
   return (
-    <header className="header">
+    <header className="header" id="header">
+      <a href="#header" className="logo">
+        <h3>Tatyane Gonçalves</h3>
+      </a>
+
       <nav className="header-nav">
         <a href="#home">Home</a>
         <a href="#about">Sobre</a>
@@ -12,15 +16,14 @@ export default function Header() {
         <a href="#contact">Contato</a>
       </nav>
 
-      <ThemeToggle />
+      <div className="header-btns">
+        <ThemeToggle />
 
-      <div className="logo">
-        <h3>Tatyane Gonçalves</h3>
+        <div className="header_menu-mobile">
+          <MenuMobile />
+        </div>
       </div>
 
-      <div className="header_menu-mobile">
-        <MenuMobile />
-      </div>
     </header>
   );
 }
